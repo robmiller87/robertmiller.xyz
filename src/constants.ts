@@ -2,38 +2,38 @@ import { SITE } from "./consts";
 
 export const SOCIALS = [
   {
-    name: "Github",
-    href: "https://github.com/steipete",
-    linkTitle: ` ${SITE.title} on Github`,
-    icon: "github",
-    active: true,
-  },
-  {
     name: "X",
-    href: "https://x.com/steipete",
+    href: "https://x.com/rob_miller87",
     linkTitle: `${SITE.title} on X`,
     icon: "twitter",
     active: true,
   },
   {
-    name: "BlueSky",
-    href: "https://bsky.app/profile/steipete.me",
-    linkTitle: `${SITE.title} on BlueSky`,
-    icon: "bluesky",
-    active: true,
-  },
-  {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/steipete/",
+    href: "https://www.linkedin.com/in/rm16/",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: "linkedin",
     active: true,
   },
   {
-    name: "Mail",
-    href: "mailto:peter@steipete.me",
-    linkTitle: `Send an email to ${SITE.title}`,
-    icon: "mail",
+    name: "Github",
+    href: "https://github.com/robmiller87",
+    linkTitle: `${SITE.title} on Github`,
+    icon: "github",
+    active: true,
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/je_suis_robert_miller/",
+    linkTitle: `${SITE.title} on Instagram`,
+    icon: "instagram",
+    active: true,
+  },
+  {
+    name: "Telegram",
+    href: "https://t.me/robmiller",
+    linkTitle: `${SITE.title} on Telegram`,
+    icon: "telegram",
     active: true,
   },
 ] as const;

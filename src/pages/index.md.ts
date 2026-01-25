@@ -1,26 +1,25 @@
 import type { APIRoute } from "astro";
 
 export const GET: APIRoute = async () => {
-  const markdownContent = `# Peter Steinberger (@steipete)
+  const markdownContent = `# Robert Miller
 
-AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.
+Notes on technology, markets, and human systems — plus the occasional field report from real life.
 
 ## Navigation
 
 - [About](/about.md)
 - [Recent Posts](/posts.md)
-- [Archives](/archives.md)
 - [RSS Feed](/rss.xml)
 
 ## Links
 
-- Twitter: [@steipete](https://twitter.com/steipete)
-- GitHub: [@steipete](https://github.com/steipete)
-- Email: steipete@gmail.com
+- X: [@rob_miller87](https://x.com/rob_miller87)
+- LinkedIn: [rm16](https://www.linkedin.com/in/rm16/)
+- GitHub: [@robmiller87](https://github.com/robmiller87)
 
 ---
 
-*This is the markdown-only version of steipete.me. Visit [steipete.me](https://steipete.me) for the full experience.*`;
+*This is the markdown-only version of robertmillerconsultancy.com. Visit [robertmillerconsultancy.com](https://robertmillerconsultancy.com) for the full experience.*`;
 
   return new Response(markdownContent, {
     status: 200,

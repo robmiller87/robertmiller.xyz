@@ -34,9 +34,9 @@ export const SITE: Site = {
   website: "https://robertmillerconsultancy.com",
   author: "Robert Miller",
   profile: "https://robertmillerconsultancy.com/about",
-  desc: "Essays and notes on technology, markets, and building meaningful systems.",
+  desc: "Notes on technology, markets, and human systems — plus the occasional field report from real life.",
   title: "Robert Miller",
-  ogImage: "robert-avatar.jpg",
+  ogImage: "robert-avatar.png",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -106,4 +106,3 @@ export const ICON_MAP: Record<string, string> = {
   RSS: "rss",
   Email: "mail",
 };
-

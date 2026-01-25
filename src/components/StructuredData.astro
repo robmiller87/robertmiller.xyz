@@ -16,24 +16,24 @@ if (type === "BlogPosting") {
     description: data.description,
     author: {
       "@type": "Person",
-      name: data.author || "Peter Steinberger",
-      url: "https://steipete.me/about",
+      name: data.author || "Robert Miller",
+      url: "https://robertmillerconsultancy.com/about",
     },
     datePublished: data.pubDatetime.toISOString(),
     dateModified: data.modDatetime?.toISOString() || data.pubDatetime.toISOString(),
     publisher: {
       "@type": "Person",
-      name: "Peter Steinberger",
+      name: "Robert Miller",
       logo: {
         "@type": "ImageObject",
-        url: "https://steipete.me/peter-avatar.jpg",
+        url: "https://robertmillerconsultancy.com/robert-avatar.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": data.url,
     },
-    image: data.ogImage || "https://steipete.me/peter-avatar.jpg",
+    image: data.ogImage || "https://robertmillerconsultancy.com/robert-avatar.png",
     articleSection: data.tags?.[0] || "Technology",
     keywords: data.tags?.join(", ") || "",
     wordCount: data.wordCount,
@@ -43,33 +43,34 @@ if (type === "BlogPosting") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Peter Steinberger",
-    url: "https://steipete.me",
-    image: "https://steipete.me/peter-avatar.jpg",
+    name: "Robert Miller",
+    url: "https://robertmillerconsultancy.com",
+    image: "https://robertmillerconsultancy.com/robert-avatar.png",
     sameAs: [
-      "https://github.com/steipete",
-      "https://twitter.com/steipete",
-      "https://bsky.app/profile/steipete.me",
+      "https://github.com/robmiller87",
+      "https://x.com/rob_miller87",
+      "https://www.linkedin.com/in/rm16/",
+      "https://www.instagram.com/je_suis_robert_miller/",
     ],
-    jobTitle: "Software Engineer",
+    jobTitle: "Consultant",
     description:
-      "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
+      "Notes on technology, markets, and human systems — plus the occasional field report from real life.",
   };
 } else if (type === "WebSite") {
   structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Peter Steinberger",
-    url: "https://steipete.me",
+    name: "Robert Miller",
+    url: "https://robertmillerconsultancy.com",
     description:
-      "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
+      "Notes on technology, markets, and human systems — plus the occasional field report from real life.",
     author: {
       "@type": "Person",
-      name: "Peter Steinberger",
+      name: "Robert Miller",
     },
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://steipete.me/search?q={search_term_string}",
+      target: "https://robertmillerconsultancy.com/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
