@@ -34,7 +34,7 @@ export const SITE: Site = {
   website: "https://robertmillerconsultancy.com",
   author: "Robert Miller",
   profile: "https://robertmillerconsultancy.com/about",
-  desc: "Notes on technology, markets, and human systems — plus the occasional field report from real life.",
+  desc: "Thinking out loud about technology, markets, systems, and the ideas that stick with me.",
   title: "Robert Miller",
   ogImage: "robert-avatar.png",
   lightAndDarkMode: true,
