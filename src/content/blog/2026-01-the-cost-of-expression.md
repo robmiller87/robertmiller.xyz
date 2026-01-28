@@ -5,6 +5,16 @@ pubDatetime: 2026-01-27T12:00:00Z
 tags: ["technology", "AI", "writing", "culture"]
 ---
 
+**TL;DR:**
+- Technology doesn't create expression — it removes the barriers suppressing it
+- Every communication revolution unlocks people who were "never supposed to" create
+- The printing press didn't make better thinkers — it gave existing thinkers cheaper distribution
+- AI is the next collapse in the cost of expression
+- The people panicking about quality are the same people who panicked about the printing press
+- Expression is the natural state; silence is what requires explanation
+
+---
+
 The most important thing technology does isn't make things faster. It makes things cheaper. And when it makes something cheap enough, people who were never supposed to do it start doing it.
 
 That's the real story of every communication revolution. Not the technology itself — the people it unlocked.

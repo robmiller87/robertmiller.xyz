@@ -5,6 +5,15 @@ pubDatetime: 2026-01-13T12:00:00Z
 tags: ["markets", "decision-making", "leadership", "volatility"]
 ---
 
+**TL;DR:**
+- The people who navigate volatility aren't better at predicting — they're better at structuring
+- Optionality beats conviction: capped downside, uncapped upside
+- Going independent was an options trade — swapping one employer for a portfolio of possibilities
+- The employee version of me was fragile; the independent version was antifragile
+- In uncertain times, the question isn't "what will happen?" — it's "how am I positioned for whatever happens?"
+
+---
+
 The world is fucking mental right now.
 
 Venezuela. Greenland. The Taiwan threat from China. Russia and Ukraine grinding on. Currency debasement accelerating. And underneath all of it, the AI revolution ramping up and causing shifts in society that nobody fully understands yet.
