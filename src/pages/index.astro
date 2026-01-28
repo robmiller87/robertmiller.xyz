@@ -11,43 +11,50 @@ import StructuredData from "@/components/StructuredData.astro";
 import { SITE, SOCIALS } from "@/config";
 import Layout from "@/layouts/Layout.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
+import { getPath } from "@/utils/getPath";
+import { calculateReadingTime } from "@/utils/readingTime";
 
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
 const posts2025AndLater = sortedPosts.filter(({ data }) => data.pubDatetime.getFullYear() >= 2025);
-const featuredPosts = posts2025AndLater.filter(({ data }) => data.featured);
-const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
+
+// Featured: use explicitly featured posts, or fall back to the most recent post
+let featuredPosts = posts2025AndLater.filter(({ data }) => data.featured);
+let recentPosts: typeof posts2025AndLater;
+
+if (featuredPosts.length === 0 && posts2025AndLater.length > 0) {
+  featuredPosts = [posts2025AndLater[0]];
+  recentPosts = posts2025AndLater.slice(1);
+} else {
+  recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
+}
 ---
 
-<Layout description="Notes on technology, markets, and human systems — plus the occasional field report from real life.">
+<Layout description="Thinking out loud about technology, markets, systems, and the ideas that stick with me.">
   <StructuredData type="WebSite" data={{}} />
   <StructuredData type="Person" data={{}} />
   <Header />
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-6 pb-4">
-      <div class="flex flex-col sm:flex-row items-start gap-4">
-        <a href="/about" class="block mx-auto sm:mx-0 group">
-          <img
-            src="/robert-avatar.png"
-            alt="Robert Miller"
-            class="w-40 h-40 rounded-full object-cover flex-shrink-0 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
-          />
-        </a>
-        <div class="flex-1 text-center sm:text-left">
-          <p class="my-2 sm:my-4">
-            Notes on technology, markets, and human systems —<br />
-            plus the occasional field report from real life.
-          </p>
-          {
-            // only display if at least one social link is enabled
-            SOCIALS.filter((social) => social.active).length > 0 && (
-              <div class="mt-4 flex flex-row items-center justify-center sm:justify-start">
-                <Socials />
-              </div>
-            )
-          }
-        </div>
+      <div class="text-center sm:text-left">
+        <h1 class="text-3xl font-bold sm:text-4xl">Robert Miller</h1>
+        <p class="hero-bio my-3 text-lg opacity-90">
+          Thinking out loud about technology, markets, systems, and the ideas that stick with me.
+        </p>
+        <p class="my-2 opacity-70">
+          <a href="/about" class="hover:text-accent transition-colors">
+            Writer, trader, builder. Previously VP Growth at Fuse (Ethereum L2). Based in Biarritz. →
+          </a>
+        </p>
+        {
+          // only display if at least one social link is enabled
+          SOCIALS.filter((social) => social.active).length > 0 && (
+            <div class="mt-4 flex flex-row items-center justify-center sm:justify-start">
+              <Socials />
+            </div>
+          )
+        }
       </div>
     </section>
 
@@ -57,12 +64,37 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
       featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
-            <ul>
-              {featuredPosts.map((data) => (
-                <Card variant="h3" {...data} showImage={false} />
-              ))}
-            </ul>
+            <div class="featured-essay">
+              {featuredPosts.map((post) => {
+                const readingTime = calculateReadingTime(post.body ?? "");
+                return (
+                  <article class="mb-8">
+                    <a
+                      href={getPath(post.id, post.filePath)}
+                      class="group block"
+                    >
+                      <h2 class="text-2xl sm:text-3xl font-bold text-accent group-hover:underline decoration-dashed underline-offset-4 transition-colors">
+                        {post.data.title}
+                      </h2>
+                    </a>
+                    <div class="flex items-center gap-3 mt-2 mb-3 text-sm opacity-70">
+                      <time datetime={post.data.pubDatetime.toISOString()}>
+                        {post.data.pubDatetime.toLocaleDateString("en-GB", {
+                          year: "numeric",
+                          month: "long",
+                          day: "numeric",
+                        })}
+                      </time>
+                      <span>•</span>
+                      <span class="italic">{readingTime}</span>
+                    </div>
+                    <p class="text-base opacity-80 leading-relaxed max-w-2xl">
+                      {post.data.description}
+                    </p>
+                  </article>
+                );
+              })}
+            </div>
           </section>
           {recentPosts.length > 0 && <Hr />}
         </>
@@ -71,7 +103,8 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
 
     {
       recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
+        <section id="recent-posts" class="pt-8 pb-6">
+          <h2 class="text-xl font-semibold tracking-wide mb-2 opacity-70">Recent</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -88,6 +121,27 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
         <IconArrowRight class="inline-block" />
       </LinkButton>
     </div>
+
+    <Hr />
+
+    <section id="subscribe" class="py-12 text-center">
+      <h2 class="text-xl font-semibold mb-2">Get new essays by email</h2>
+      <p class="text-sm opacity-70 mb-6">No spam, no noise. Just new writing when it's ready.</p>
+      <form class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto" onsubmit="return false;">
+        <input
+          type="email"
+          placeholder="you@example.com"
+          class="subscribe-input w-full sm:flex-1 px-4 py-2.5 rounded-md border border-border bg-background text-foreground placeholder:opacity-50 focus:outline-none focus:ring-2 focus:ring-accent/50"
+          aria-label="Email address"
+        />
+        <button
+          type="submit"
+          class="subscribe-btn px-6 py-2.5 rounded-md bg-accent text-background font-medium hover:opacity-90 transition-opacity whitespace-nowrap"
+        >
+          Subscribe
+        </button>
+      </form>
+    </section>
   </main>
   <Footer />
 </Layout>

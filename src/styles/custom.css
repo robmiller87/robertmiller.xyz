@@ -3,13 +3,14 @@
 :root {
   --sidebar-width: 260px;
   --topbar-height: 3rem;
-  --content-max-width: 800px;
+  --content-max-width: 700px;
   --sidebar-bg: #f8f9fa;
   --text-color: #212529;
   --link-color: #007bff;
   --hover-color: #0056b3;
   --light-gray: #adb5bd;
   --box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  --font-serif: "Source Serif 4", "Georgia", "Times New Roman", serif;
 }
 
 /* Mobile sidebar toggle button */
@@ -169,8 +170,8 @@ main {
 }
 
 .post-content {
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 18px;
+  line-height: 1.9;
 }
 
 .post-content img {
@@ -541,4 +542,34 @@ footer {
   padding: 2rem 0;
   color: var(--light-gray);
   font-size: 0.9rem;
+}
+
+/* ===== Typography: Serif for articles & body content ===== */
+.post-content,
+article#article,
+#article .prose,
+.hero-bio {
+  font-family: var(--font-serif);
+}
+
+/* Article reading experience — premium essay feel */
+article#article,
+#article .prose {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+/* Featured essay on homepage */
+.featured-essay p {
+  font-family: var(--font-serif);
+}
+
+/* Subscribe section */
+.subscribe-input {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+}
+
+.subscribe-btn {
+  font-size: 0.95rem;
 }
