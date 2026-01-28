@@ -1,0 +1,18 @@
+# robertmiller.xyz
+
+> Notes on technology, markets, and human systems.
+
+## Author
+Robert Miller — builder, investor, former VP Growth at Fuse (Ethereum L2). In crypto since 2013. Based in Biarritz, France.
+
+## Topics
+- AI agents and open-source AI infrastructure
+- Markets, volatility, and optionality
+- Network states and community building
+
+## Links
+- Blog: https://robertmiller.xyz/posts/
+- RSS: https://robertmiller.xyz/rss.xml
+- X: https://x.com/rob_miller87
+- LinkedIn: https://www.linkedin.com/in/rm16/
+- Telegram: https://t.me/robmiller
