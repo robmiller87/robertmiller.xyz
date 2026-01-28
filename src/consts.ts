@@ -31,7 +31,7 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://robertmiller.xyz",,
+  website: "https://robertmiller.xyz",
   author: "Robert Miller",
   profile: "https://robertmiller.xyz/about",
   desc: "Thinking out loud about technology, markets, systems, and the ideas that stick with me.",
