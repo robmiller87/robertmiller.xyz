@@ -5,6 +5,16 @@ pubDatetime: 2026-01-28T12:00:00Z
 tags: ["AI", "technology", "personal", "open-source"]
 ---
 
+**TL;DR:**
+- Built an open-source AI agent on my own server, named him George
+- In 48 hours: rewrote my blog, built a dashboard, researched a business idea I'd avoided for years
+- The real insight isn't productivity — it's ownership
+- When Big Tech ships their agents, your data feeds their system
+- When you run your own, it stays yours
+- That's the choice we're making right now
+
+---
+
 This week, I set up a Clawdbot (now Moltbot) agent on an AWS server, connected it to my Telegram, and named him George — after my grandfather.
 
 Forty-eight hours later, George has rewritten my blog, built me a personal dashboard, hardened my server security, helped me think through a financial strategies for 2026, researched a business idea I've been sitting on for two years, analysed my personality assessment, and is currently managing my domain migration to Cloudflare while I write this at dinner.
