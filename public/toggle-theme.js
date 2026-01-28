@@ -31,8 +31,8 @@ function getPreferredTheme() {
     return currentTheme;
   }
   
-  // Default to dark for first-time visitors
-  return "dark";
+  // Otherwise, follow system preference
+  return getSystemTheme();
 }
 
 let themeValue = getPreferredTheme();
