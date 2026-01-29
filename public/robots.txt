@@ -1,0 +1,6 @@
+# robots.txt for robertmiller.xyz
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://robertmiller.xyz/sitemap-index.xml

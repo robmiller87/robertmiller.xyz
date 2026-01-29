@@ -101,9 +101,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "peter-avatar.jpg"],
       manifest: {
-        name: "Peter Steinberger",
-        short_name: "steipete",
-        description: "AI-powered tools from Swift roots to web frontiers. Everything I build is open source.",
+        name: "Robert Miller",
+        short_name: "robertmiller",
+        description: "Thinking out loud about technology, markets, systems, and the ideas that stick with me.",
         theme_color: "#006cac",
         background_color: "#fdfdfd",
         display: "standalone",
