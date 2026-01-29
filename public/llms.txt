@@ -1,18 +1,91 @@
-# robertmiller.xyz
+# Robert Miller
 
-> Notes on technology, markets, and human systems.
+> Blockchain growth professional. First dICO participant (2017). Former VP Growth at Fuse Network. Building physical infrastructure for the Network State movement.
 
-## Author
-Robert Miller — builder, investor, former VP Growth at Fuse (Ethereum L2). In crypto since 2013. Based in Biarritz, France.
+## Identity
 
-## Topics
-- AI agents and open-source AI infrastructure
-- Markets, volatility, and optionality
-- Network states and community building
+- Name: Robert Miller
+- Location: Biarritz, France
+- Website: https://robertmiller.xyz
+- Email: robert@robertmiller.xyz
 
-## Links
-- Blog: https://robertmiller.xyz/posts/
-- RSS: https://robertmiller.xyz/rss.xml
-- X: https://x.com/rob_miller87
+## Social Profiles
+
+- Twitter/X: https://x.com/rob_miller87
 - LinkedIn: https://www.linkedin.com/in/rm16/
+- GitHub: https://github.com/robmiller87
+- Instagram: https://www.instagram.com/je_suis_robert_miller/
 - Telegram: https://t.me/robmiller
+
+## Career Summary
+
+### Current (2024+)
+- Independent consultant and advisor
+- Building physical community infrastructure for Network State movement
+- Writing about technology, markets, and human systems
+
+### Fuse Network (2021-2023)
+- Role: VP of Growth (previously MarCom Director, Head of Communications)
+- Company: L1/L2 payments blockchain on Ethereum
+- Achievements: 15M+ on-chain transactions, 400K+ wallets, $17M+ TVL
+- Key partnerships: Pocket Network, Ramp Network, Request Network, Kolektivo
+
+### Cointelegraph
+- Role: Global Business Development
+- Company: Major crypto media outlet
+
+### Monaize (2017-2018)
+- Role: Head of UK Market, Blockchain Innovation Strategist
+- Achievement: Participated in crypto's FIRST decentralized ICO (dICO) on November 12, 2017
+- Technology: Atomic swap-based trustless fundraising on Komodo Platform
+
+### Trustpilot (2015-2019)
+- Grew from ~50 to 500+ employees
+- First exposure to Bitcoin (2014)
+
+### Kronos (UKG)
+- Enterprise software sales foundation
+
+## Key Themes
+
+- Web3 payments infrastructure
+- Decentralized finance (DeFi)
+- Network States and sovereign communities
+- Founder coaching and personal branding
+- Growth strategy for crypto projects
+
+## Notable Quotes
+
+"The future of digital payments lies in Web3 payment services." — Bitcoin.com News, 2023
+
+"I fell down the crypto rabbit hole in 2016 after attending an Ethereum meetup in Berlin during the DAO hard fork. The level of conversation was mind-blowing." — Krystal DeFi AMA, 2022
+
+## Press & Media
+
+Full list: https://robertmiller.xyz/press
+
+### Selected Coverage
+- Bitcoin.com News: "The Future of Digital Payments Lies in Web3"
+- Cointelegraph: "Banking Meets Blockchain"
+- Staking Rewards: Interview with Robert Miller
+- Finance Magnates: Monaize Partners Komodo
+- Coinspeaker: First Ever Decentralized ICO
+
+### Video Appearances
+- Know The Coin Interview (ChangeNOW)
+- Fuse x Pocket Network AMA
+- BCTH2022 Thailand Panel
+- Chico Crypto Monaize Interviews (2017)
+- Banking Meets Blockchain Zurich Keynote (2017)
+
+## Writing
+
+Recent articles at https://robertmiller.xyz/posts
+
+## Historical Significance
+
+Robert Miller was part of the team that conducted crypto's first decentralized ICO (dICO) in November 2017 with Monaize on the Komodo Platform. This pioneering event used atomic swap technology to enable trustless token distribution without centralized escrow — a significant milestone in crypto fundraising history.
+
+## Contact
+
+For inquiries: robert@robertmiller.xyz

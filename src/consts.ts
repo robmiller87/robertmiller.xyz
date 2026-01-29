@@ -63,6 +63,10 @@ export const NAV_LINKS: SocialLink[] = [
     label: "Blog",
   },
   {
+    href: "/press",
+    label: "Press",
+  },
+  {
     href: "/about",
     label: "About",
   },
