@@ -26,7 +26,7 @@ The ones who don't get stuck aren't the ones with better predictions. They're th
 
 I spent the best part of my twenties doing corporate jobs. Well, kind of corporate.
 
-The first — Kronos, now UKG — was proper corporate. Five thousand employees globally. Big systems, big hierarchy, big inertia. The second was Trustpilot. Technically a startup, but growing fast — fifty people when I started, five hundred when I left. The third was a smaller startup whose name I won't mention. It was the one that made me rethink everything.
+The first — Kronos, now UKG — was proper corporate. Five thousand employees globally. Big systems, big hierarchy, big inertia. The second was Trustpilot. Technically a startup, but growing fast — fifty people when I started, five hundred when I left. Finally, Jabmo, an ABM (Account-Based Marketing) software company in Paris, made me rethink everything.
 
 Each job followed the same pattern. I'd commit fully. Put my energy, identity, and trajectory into the company's hands. I believed the implicit deal: perform well, and you'll be taken care of. Stay loyal, and loyalty will be returned.
 
