@@ -7,7 +7,7 @@
 - Name: Robert Miller
 - Location: Biarritz, France
 - Website: https://robertmiller.xyz
-- Email: robert@robertmiller.xyz
+- Email: robert@robertmillerconsultancy.com
 
 ## Social Profiles
 
@@ -88,4 +88,4 @@ Robert Miller was part of the team that conducted crypto's first decentralized I
 
 ## Contact
 
-For inquiries: robert@robertmiller.xyz
+For inquiries: robert@robertmillerconsultancy.com
