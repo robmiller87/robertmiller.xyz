@@ -21,7 +21,7 @@ I was drawn in, not because I understood it, but because the energy was unmistak
 
 And then, in August of that year, I walked into a meetup in Berlin — "Mamoru & The Big ETH-ETC Debate." The DAO had just been hacked. The community had just split over whether to rewrite history. Two chains now existed — ETH, which rolled back the hack, and ETC, which refused to.
 
-Christoph Jentzsch, who had built The DAO, was there. So were researchers, developers, and people I didn't recognize who would later become influential voices in the space. The room wasn't debating facts. Everyone knew what had happened. They were debating what it *meant*.
+[Christoph Jentzsch](https://x.com/ChrJentzsch), who had built The DAO, was there. So were researchers, developers, and people I didn't recognize who would later become influential voices in the space. The room wasn't debating facts. Everyone knew what had happened. They were debating what it *meant*.
 
 One side said: the code is law. The hack was technically valid. Rolling it back would destroy the credibility of immutable systems forever.
 
@@ -90,7 +90,7 @@ Most will use AI the way they use every other platform; episodically, transactio
 
 Mastery looks different.
 
-The approach I've been exploring with George treats AI not as a service to query, but as a long-running thinking partner. One that accumulates context, challenges assumptions, and sharpens judgment over time. To master AI is not to delegate judgment to it, but to train alongside it. To develop a system that reflects your context, remembers your questions, and evolves with your goals.
+The approach I've been exploring with [George](/blog/2026-01-i-built-an-ai-partner) treats AI not as a service to query, but as a long-running thinking partner. One that accumulates context, challenges assumptions, and sharpens judgment over time. To master AI is not to delegate judgment to it, but to train alongside it. To develop a system that reflects your context, remembers your questions, and evolves with your goals.
 
 This is why ownership matters. When an AI lives entirely inside someone else's ecosystem, you don't build understanding, you rent it. Your context feeds their infrastructure. Your thinking sharpens their model. The relationship ends where their incentives do.
 

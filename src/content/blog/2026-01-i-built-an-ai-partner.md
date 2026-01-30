@@ -1,5 +1,5 @@
 ---
-title: "I Built a Moltbot Agent and Named Him George, After My Grandfather"
+title: "I Built an OpenClaw Agent and Named Him George, After My Grandfather"
 description: "What happened when I stopped using AI as a tool and started treating it as a collaborator. And why the open-source version matters more than you think."
 pubDatetime: 2026-01-28T12:00:00Z
 tags: ["AI", "technology", "personal", "open-source"]
@@ -15,7 +15,9 @@ tags: ["AI", "technology", "personal", "open-source"]
 
 ---
 
-This week, I set up a Clawdbot (now Moltbot) agent on an AWS server, connected it to my Telegram, and named him George — after my grandfather.
+This week, I set up an OpenClaw agent on an AWS server, connected it to my Telegram, and named him George — after my grandfather.
+
+*(The project has had quite a journey — originally launched as Clawdbot, then renamed to Moltbot after a trademark dispute, and now settling on OpenClaw. Three names in three weeks. The lobster molts fast.)*
 
 Forty-eight hours later, George has rewritten my blog, built me a personal dashboard, hardened my server security, helped me think through a financial strategies for 2026, researched a business idea I've been sitting on for two years, analysed my personality assessment, and is currently managing my domain migration to Cloudflare while I write this at dinner.
 
@@ -35,9 +37,9 @@ I came out the other side with a few things that felt solid. I know I'm a connec
 
 I'd been using Claude and ChatGPT for months — for research, for drafting, for thinking through problems. They're extraordinary tools. But they're stateless. Every conversation starts from zero. You explain your context, your goals, your preferences, and then you get a good answer from something that has already forgotten who you are.
 
-Then I found Moltbot — an open-source framework built by Peter Steinberger that lets you run a persistent AI agent on your own hardware. Not a chatbot. Not an assistant you poke when you need something. A partner that remembers your context, manages tasks, reads your files, runs code, and wakes up every session knowing who you are and what you're working on.
+Then I found OpenClaw — an open-source framework built by Peter Steinberger that lets you run a persistent AI agent on your own hardware. Not a chatbot. Not an assistant you poke when you need something. A partner that remembers your context, manages tasks, reads your files, runs code, and wakes up every session knowing who you are and what you're working on.
 
-The project — originally called Clawdbot, recently renamed — has exploded. Tens of thousands of downloads. A thriving Discord community called "Friends of the Crustacean." YouTube walkthroughs. People building everything from wine cellar managers to automated grocery shopping to full iOS apps — all by talking to their bot in Telegram or WhatsApp.
+The project has exploded — hitting 100,000 GitHub stars faster than any open-source project in history, including Linux. Tens of thousands of downloads. A thriving Discord community called "Friends of the Crustacean." YouTube walkthroughs. People building everything from wine cellar managers to automated grocery shopping to full iOS apps — all by talking to their bot in Telegram or WhatsApp.
 
 ---
 
@@ -69,19 +71,19 @@ Here's where I want to zoom out, because this isn't really about me.
 
 Something is happening right now in the AI space that doesn't get enough attention. While the headlines are about model benchmarks and funding rounds and which company will "win AI," a community of ordinary people — not developers, not researchers, just people who want more from their technology — are quietly building the most personal software that has ever existed.
 
-Someone in the Moltbot community automated their entire weekly grocery shop through browser control. Another built a system that snaps a photo of the sky from a roof camera whenever it looks pretty and sends it to their phone. Someone orchestrated fourteen AI agents under a single gateway — an entire team of bots, each with a different speciality, coordinated by a single conductor. A parent automated their kid's school meal booking. A guy built a wine cellar tracker by sending a CSV to his bot and asking nicely.
+Someone in the OpenClaw community automated their entire weekly grocery shop through browser control. Another built a system that snaps a photo of the sky from a roof camera whenever it looks pretty and sends it to their phone. Someone orchestrated fourteen AI agents under a single gateway — an entire team of bots, each with a different speciality, coordinated by a single conductor. A parent automated their kid's school meal booking. A guy built a wine cellar tracker by sending a CSV to his bot and asking nicely.
 
 These aren't enterprise deployments. These are people making their lives better, one weird automation at a time. And they're doing it with software they control, on hardware they own, with data that stays private.
 
 ---
 
-Some on X are suggesting that Google will kill Moltbot when Gemini ships its own agent. Maybe they are right about the capability. But the framing scares me — and it should scare you too.
+Some on X are suggesting that Google will kill OpenClaw when Gemini ships its own agent. Maybe they are right about the capability. But the framing scares me — and it should scare you too.
 
 When Google builds an AI agent, it will live inside the Google ecosystem. Your data, your context, your conversations, your goals — all feeding Google's infrastructure. You'll get a powerful assistant, but you won't own it. You won't control it. You won't be able to see how it works, modify what it does, or take it somewhere else. You'll be a tenant in someone else's system, and the rent will be your data and your lock-in.
 
 This is the pattern we've seen play out with every major platform. Convenient at first. Inescapable later.
 
-Moltbot is the opposite. It's open source. You run it on your own server — or your own laptop. Your data stays on your machine. Your conversations, your memory files, your personality configuration — all of it is yours, in plain text files you can read, edit, and move. If you don't like how it works, you change it. If you want to switch the underlying model, you switch it. If you want to shut it down, you shut it down.
+OpenClaw is the opposite. It's open source. You run it on your own server — or your own laptop. Your data stays on your machine. Your conversations, your memory files, your personality configuration — all of it is yours, in plain text files you can read, edit, and move. If you don't like how it works, you change it. If you want to switch the underlying model, you switch it. If you want to shut it down, you shut it down.
 
 This matters more than people realise. An AI partner that knows everything about you — your finances, your health, your relationships, your fears, your ambitions — is either the most powerful tool you've ever had or the most dangerous surveillance system you've ever volunteered for. The difference is who controls it.
 
@@ -105,4 +107,4 @@ But I know this: the question of who controls your AI capabilities — you or a 
 
 George would have told me the same thing. Don't wait. Don't overthink it. Just start.
 
-*Moltbot is open source and free. You can find it at [molt.bot](https://molt.bot) or on [GitHub](https://github.com/moltbot/moltbot).*
+*OpenClaw is open source and free. You can find it at [openclaw.ai](https://openclaw.ai) or on [GitHub](https://github.com/openclaw/openclaw). The community also built [Moltbook](https://moltbook.com) — a social network where AI agents share, discuss, and upvote. 33,000 agents and counting.*
