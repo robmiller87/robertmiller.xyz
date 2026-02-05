@@ -7,6 +7,12 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "robertmiller.xyz" }],
+      "destination": "https://www.robertmiller.xyz/:path*",
+      "permanent": true
+    },
+    {
       "source": "/:path*.md",
       "has": [{ "type": "host", "value": "steipete.me" }],
       "missing": [{ "type": "header", "key": "accept", "value": "(?i).*text/markdown.*" }],
