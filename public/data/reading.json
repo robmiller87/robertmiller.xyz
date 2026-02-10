@@ -11,12 +11,6 @@
       "url": "https://substack.com/home/post/p-185989346",
       "author": "Arthur Hayes",
       "date": "2026-01-27"
-    },
-    {
-      "title": "Bitcoinwiki",
-      "url": "https://bitcoinwiki.org/wiki/bitcointalk",
-      "author": "Super",
-      "date": "2026-02-10"
     }
   ],
   "toRead": [
@@ -28,6 +22,12 @@
     {
       "title": "bc1beat on X",
       "url": "https://x.com/bc1beat/status/2018814274701848980?s=20",
+      "dateAdded": "2026-02-10"
+    },
+    {
+      "title": "Bitcoinwiki",
+      "url": "https://bitcoinwiki.org/wiki/bitcointalk",
+      "author": "Super",
       "dateAdded": "2026-02-10"
     }
   ]
