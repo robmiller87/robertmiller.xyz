@@ -1,3 +1,12 @@
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+
+async function loadLocalFont(weight: number): Promise<ArrayBuffer> {
+  const fileName = weight >= 700 ? "atkinson-bold.woff" : "atkinson-regular.woff";
+  const fontPath = path.join(process.cwd(), "public", "fonts", fileName);
+  return readFile(fontPath);
+}
+
 async function loadGoogleFont(font: string, text: string, weight: number): Promise<ArrayBuffer> {
   const API = `https://fonts.googleapis.com/css2?family=${font}:wght@${weight}&text=${encodeURIComponent(text)}`;
 
@@ -43,7 +52,14 @@ async function loadGoogleFonts(
 
   const fonts = await Promise.all(
     fontsConfig.map(async ({ name, font, weight, style }) => {
-      const data = await loadGoogleFont(font, text, weight);
+      let data: ArrayBuffer;
+
+      try {
+        data = await loadGoogleFont(font, text, weight);
+      } catch {
+        data = await loadLocalFont(weight);
+      }
+
       return { name, data, weight, style };
     })
   );
