@@ -6,13 +6,6 @@ tags: ["technology", "attention", "sovereignty", "personal"]
 draft: false
 ---
 
-**TL;DR:**
-- Technology has given us unprecedented freedom, and it has become extraordinarily good at persuading us to surrender it, not through coercion but through pleasure
-- The attention economy is a bargain most of us enter willingly: platforms are incentivised to keep us engaged, and our appetite for novelty and reward does the rest
-- Trading is my sharpest example: the activity that gave me financial independence and control over my time became one of the biggest consumers of it
-- Sovereignty has two dimensions: external (where we live, how we earn) and internal (directing our own attention). Having the first doesn't guarantee the second
-- A deliberate relationship with technology will likely stay a minority pursuit, but that minority is worth building for: calm, dedicated tools like e-paper that deliver information without demanding engagement
-
 Humanity has spent much of its history trying to become freer.
 
 We have developed political institutions to protect our rights, economic systems to facilitate cooperation, medicines to liberate us from disease, and technologies that have progressively expanded the boundaries of what an individual can achieve.
