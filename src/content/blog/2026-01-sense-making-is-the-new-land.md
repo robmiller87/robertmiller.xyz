@@ -3,7 +3,6 @@ title: "Sense-Making Is the New Land"
 description: "Every revolution creates abundance. Agriculture gave us food. Industry gave us mechanical power. Information gave us data. The scarce resource has shifted again."
 pubDatetime: 2026-01-30T12:00:00Z
 tags: ["ai", "technology", "leadership", "decision-making"]
-featured: true
 draft: false
 ---
 

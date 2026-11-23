@@ -3,6 +3,7 @@ title: "The Paradox of Freedom in the Age of Technology"
 description: "On pleasure, purpose, and the quiet surrender of personal sovereignty."
 pubDatetime: 2026-11-23T12:00:00Z
 tags: ["technology", "attention", "sovereignty", "personal"]
+featured: true
 draft: false
 ---
 
